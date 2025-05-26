@@ -1,0 +1,48 @@
+// Write a C program to find the sum of all natural numbers between 1 to n using for loop.
+   “n” should be taken by the user. Hint: 1 + 2 + 3 +…..+ n
+
+#include<stdio.h>
+
+int main(){
+
+int n,i,sum;
+printf("Enter n:");
+scanf("%d",&n);
+
+if(n<=0){
+   printf("Please enter a positive natural number");
+}
+
+for(i=1; i<=n; i++){
+   sum+=i;
+}
+
+printf("Sum of natural numbers between 1 to %d:%d",n,sum);
+
+return 0;
+}
+
+// Modify the program to take both number limits (m and n) from user and find the sum of
+   all natural numbers between the limit. Hint: m + (m+1) + (m+2) +…+ n
+
+#include<stdio.h>
+int main(){
+
+int m,n,sum=0;
+
+printf("Enter the starting number(m):");
+scanf("%d",&m);
+printf("Enter the ending number(n):");
+scanf("%d",&n);
+
+if(m>n){
+	printf("Invalid input! Starting number should be less than or equal to ending number.\n");
+}
+	
+for(int i=m; i<=n; i++){
+	sum+=i;	
+}	
+printf("Sum of naturel numbers between %d and %d: %d",m,n,sum);
+
+return 0;
+}
