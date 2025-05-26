@@ -1,0 +1,28 @@
+// Write a C program to read marks for four subjects using a while loop. Calculate the average
+  and output the results (pass/fail) according to the average.
+
+#include<stdio.h>
+int main(){
+
+int mark,i=1;
+float sum=0,average;
+
+while(i<=4){
+	printf("Input mark for subject %d: ",i);
+	scanf("%d",&mark);
+	sum+=mark;
+	i++;
+}
+average=sum/4;
+
+printf("Average=%.2f\n",average);
+if(average>=45){
+	printf("Result: Pass\n");
+}
+else{
+	printf("Result: Fail\n");
+}
+
+
+return 0;
+}
