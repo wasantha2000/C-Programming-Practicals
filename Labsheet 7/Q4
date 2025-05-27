@@ -1,0 +1,19 @@
+// Write a C program to enter a number from user and print multiplication table of the given
+   number using for loop.
+
+#include<stdio.h>
+int main(){
+   
+   int num,result;
+   printf("Enter number to print the table of:");
+   scanf("%d",&num);
+   
+   for(int i=1; i<=10; i++){
+   	result=num*i;
+   	printf("%d*%d=%d\n",num,i,result);
+   	
+   }
+
+
+return 0;
+}
