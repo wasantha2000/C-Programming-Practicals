@@ -1,3 +1,26 @@
 // Find the number of digits in an user entered integer using a while loop.
    Ex: if the number is 57123, number of digits are 5.
 
+#include<stdio.h>
+int main(){
+
+int  num,count;
+
+printf("Enter number:");
+scanf("%d",&num);
+
+if(num<0){
+	num=-num;
+}
+if(num==0){
+	count=1;
+}else{
+	while(num!=0){
+		num=num/10;
+		count++;
+	}
+}
+printf("Number of digits: %d\n",count);
+
+return 0;
+}
