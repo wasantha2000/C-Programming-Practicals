@@ -2,3 +2,5 @@
    loop.
 // Modify the above program using while
 // Modify the above program using do while loop.
+// Write a C program to find the maximum from a list of any user given numbers using
+   appropriate loop. (Hint: use sentinel control value)
