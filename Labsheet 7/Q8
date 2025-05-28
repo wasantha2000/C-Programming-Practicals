@@ -90,3 +90,38 @@ return 0;
 
 // Write a C program to find the maximum from a list of any user given numbers using
    appropriate loop. (Hint: use sentinel control value)
+
+#include<stdio.h>
+int main(){
+
+int number,max;
+int first=1;
+
+printf("Enter numbers(enter -999 to stop):\n");
+
+while(1){
+	scanf("%d",&number);
+	
+	if(number==-999){
+		break;
+	}
+	
+	if(first){
+		max=number;
+		first=0;
+	}else{
+		if(number>max){
+			max=number;
+		}
+	}
+}
+
+if(first){
+	printf("No numbers were entered.\n");
+}else{
+	printf("The maximum number is: %d\n",max);
+}
+
+return 0;
+}
+
