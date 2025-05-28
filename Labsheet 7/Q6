@@ -1,0 +1,6 @@
+// Develop a program to display a menu with simple operations of a calculator as bellow.
+   Corresponding operation should be performed and display the result according to the selected
+   menu option number. First the option number should be taken by the user and then two
+   values for the calculation. Menu should be displayed continuously until user select exit
+   option. Give a suitable error message for incorrect option inputs. (Use do-while and switch)
+
