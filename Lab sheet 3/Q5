@@ -1,1 +1,21 @@
+#include<stdio.h>
+int main(){
+	int x,y,z,result,sum,average;
+	
+	printf("Enter value of a: ");
+	scanf("%d",&x);
+	printf("Enter value of b: ");
+	scanf("%d",&y);
+	printf("Enter value of c: ");
+	scanf("%d",&z);
+	
+	result=x*y*z;
+	sum=x+y+z;
+	average=sum/3;
+	
+	printf("The product is: %d\n",result);
+	printf("Avarage is: %d\n",average);
+
+return 0;
+}
 
