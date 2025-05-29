@@ -1,1 +1,22 @@
+#include<stdio.h>
+
+int main(){
+	const int inches_per_foot=12;
+	
+	int inches;
+	float feet;
+	
+	printf("Enter value of inches:");
+	scanf("%d",&inches);
+	
+	feet=(float)inches/inches_per_foot;
+	
+	printf("Foot: %f",feet);
+
+
+return 0;
+}
+
+//////////////////////////////////////////////////////////
+
 
