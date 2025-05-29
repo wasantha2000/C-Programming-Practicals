@@ -1,1 +1,27 @@
+#include<stdio.h>
+
+int main(){
+	char var1;
+	int var2;
+	float var3;
+	double var4;
+	
+	
+	printf("Enter a character: ");
+	scanf("%c",&var1);
+	printf("Enter an integer: ");
+	scanf("%d",&var2);
+	printf("Enter a float: ");
+	scanf("%f",&var3);
+	printf("Enter a double: ");
+	scanf("%lf",&var4);
+	
+	printf("\nValue of var1:%c\nValue of var2:%d\nValue of var3:%f\nValue of var4:%lf\n",var1,var2,var3,var4);
+
+	float sum=(float)var2+var3;
+	printf("Sum of floats: %f",sum);
+	
+	return 0;
+}
+
 
