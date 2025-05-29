@@ -36,3 +36,26 @@ return 0;
 } 
 
 /////////////////////////////////////////////////////////////
+
+#include<stdio.h>
+
+int main(){
+	const int centimeters_per_meter=100;
+	const int meters_per_kilometers =1000;
+	double meter,centimeters,kilometers;
+
+	printf("Input the value of meter:");
+	scanf("%lf",&meter);
+	
+	centimeters=meter*centimeters_per_meter;
+	kilometers=meter/meters_per_kilometers;
+	
+	printf("%lfm = %lfcm",meter,centimeters);
+	printf("\n%lfm = %lfkm",meter,kilometers);
+	
+
+
+
+return 0;
+}
+
