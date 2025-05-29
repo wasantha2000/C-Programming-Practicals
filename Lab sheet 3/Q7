@@ -19,4 +19,20 @@ return 0;
 
 //////////////////////////////////////////////////////////
 
+#include<stdio.h>
+#define p 3.143
 
+int main(){
+	float r,Circumference;
+	
+	printf("Input radius:");
+	scanf("%f",&r);
+	
+	Circumference=2*p*r;
+	
+	printf("Circumference: %f",Circumference);
+
+return 0;
+} 
+
+/////////////////////////////////////////////////////////////
