@@ -1,1 +1,21 @@
+#include<stdio.h>
+
+int main(){
+
+float age,height;
+
+printf("Enter age:");
+scanf("%f",&age);
+printf("Enter height:");
+scanf("%f",&height);
+
+if (age>=18 && height >=5){
+	printf("Candidate is selected");
+}
+else{
+	printf("not selected");
+}
+
+return 0;
+}
 
