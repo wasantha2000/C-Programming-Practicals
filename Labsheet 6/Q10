@@ -1,1 +1,41 @@
 
+#include<stdio.h>
+
+int main(){
+
+int no,value;
+
+printf("Please enter the bill value:");
+scanf("%d",&value);
+
+if(value>=10000){
+
+     printf("Please select a number from the raffle box:");
+     scanf("%d",&no);
+
+    
+	switch(no){
+	
+	case 1:
+	   printf("\nCongratulations!! You have won a Tea Set");
+	break;
+	case 2:
+	   printf("\nCongratulations!! You have won a Spoon Set");
+	break;
+	case 3:
+	   printf("\nCongratulations!! You have won a Non Stick Pan");
+	break;
+	case 4:
+	   printf("\nCongratulations!! You have won a Bowl");
+	break;
+	default:
+	   printf("Invalid number");
+	}
+}else{
+	printf("Your bill is not more than Rs.10 000 ");
+}
+
+
+
+return 0;
+}
