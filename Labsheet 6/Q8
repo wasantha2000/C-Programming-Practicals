@@ -1,1 +1,52 @@
+#include<stdio.h>
+int main(){
+    int month;
+    printf("Input the month number:");
+    scanf("%d",&month);
+    
+    switch(month){
+    
+    case 1:
+    	printf("\nmonth name is January");
+    break;
+    case 2:
+    	printf("\nmonth name is February");
+    break;
+    case 3:
+    	printf("\nmonth name is March");
+    break;
+    case 4:
+    	printf("\nmonth name is April");
+    break;
+    case 5:
+    	printf("\nmonth name is May");
+    break;
+    case 6:
+    	printf("\nmonth name is June");
+    break;
+    case 7:
+    	printf("\nmonth name is July");
+    break;
+    case 8:
+    	printf("\nmonth name is Auguest");
+    break;
+    case 9:
+    	printf("\nmonth name is September");
+    break;
+    case 10:
+    	printf("\nmonth name is Octomber");
+    break;
+    case 11:
+    	printf("\nmonth name is November");
+    break;
+    case 12:
+    	printf("\nmonth name is December");
+    break;
+    default:
+    	printf("\nInvalid number. please enter 1-12 number.");
+    }
+
+
+return 0;
+}
 
