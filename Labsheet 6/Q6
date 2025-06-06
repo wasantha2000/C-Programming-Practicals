@@ -22,3 +22,6 @@ if(unit>0 && unit<=200){
 	printf("Error");
 }
 
+return 0;
+}
+
