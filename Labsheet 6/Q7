@@ -1,1 +1,88 @@
+#include<stdio.h>
+int main(){
+  char color;
+
+  printf("\tColor Menu");
+  printf("\n----------------------------------");
+  printf("\nOrange");
+  printf("\nBrown");
+  printf("\nYellow");
+  printf("\nGreen");
+  
+  printf("\n\nEnter the first letter of the cylinder color:");
+  scanf("%c",&color);
+  
+  switch(color){
+  
+  case 'O':
+  	printf("\nCylinder content: Ammonia");
+  break;
+  
+  case 'o':
+  	printf("\nCylinder content: Ammonia");
+  break;
+  
+  case 'B':
+  	printf("\nCylinder content: Carbon monoxide");
+  break;
+  
+  case 'b':
+  	printf("\nCylinder content: Carbon monoxide");
+  break;
+  
+  case 'Y':
+  	printf("\nCylinder content: Hydrogen");
+  break;
+  
+  case 'y':
+  	printf("\nCylinder content: Hydrogen");
+  break;
+  
+  case 'G':
+  	printf("\nCylinder content: Oxygen");
+  break;
+  
+  case 'g':
+  	printf("\nCylinder content: Oxygen");
+  break;
+  default:
+       printf("\n\nGlad to have the service\n"); 
+  }
+
+	
+return 0;
+}
+
+//////////////////////////////////////////////////////////////
+
+#include<stdio.h>
+int main(){
+  char color;
+
+  printf("\tColor Menu");
+  printf("\n----------------------------------");
+  printf("\nOrange");
+  printf("\nBrown");
+  printf("\nYellow");
+  printf("\nGreen");
+  
+  printf("\n\nEnter the first letter of the cylinder color:");
+  scanf("%c",&color);
+  
+  if(color=='o' || color=='O'){
+  	printf("\nCylinder content: Ammonia");
+  }else if(color=='B' || color=='b'){
+  	printf("\nCylinder content: Carbon monoxide");
+  }else if(color=='Y' || color=='y'){
+  	printf("\nCylinder content: Hydrogen");
+  }else if(color=='G' || color=='g'){
+  	printf("\nCylinder content: Oxygen");
+  }else{ 
+  
+  }
+  
+  printf("\n\nGlad to have the service");
+	
+return 0;
+}
 
