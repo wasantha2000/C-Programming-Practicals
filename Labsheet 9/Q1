@@ -1,1 +1,22 @@
+#include<stdio.h>
+#define maxsize 10
+int main(){
+
+int arr[maxsize];
+int i;
+
+printf("Enter %d element to the array:\n",maxsize);
+for(i=0; i<maxsize; i++){
+	scanf("%d",&arr[i]);
+}
+
+printf("\n\nPrint array elements");
+for(i=0; i<maxsize; i++){
+	printf("arr[%d]=%d\n",i,arr[i]);
+}
+
+
+
+return 0;
+}
 
